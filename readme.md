@@ -5,6 +5,8 @@
 2. Crea un entorno virtual en la misma carpeta utilizando el comando:
    ```cmd
    virtualenv {nombre_del_entorno}
+   o
+    ```cmd
    python -m venv {nombre_del_entorno}-env
    ``` 
 3. Ingresa a la dirección del archivo `activate` con el comando:
@@ -30,8 +32,8 @@
    ```cmd
    python app.py
    ```
-   
-## listado de dependencias
+Todas las librerias siguietes ya vienen con  matplotlib o pandas
+## listado de librerias
   ```cmd
    listado de librerias 
 contourpy==1.2.1
